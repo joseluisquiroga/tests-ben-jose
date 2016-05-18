@@ -1,0 +1,12 @@
+
+CURR_LAPS=267 YES_SAT=0 NO_SAT=1 TMOUT=0 MMOUT=0 ERR=0 UNKNOWN_SAT=0 
+SOLVE SEGs tot=37.87 avg=37.87 max=37.87 (avg/max)=100.00%
+
+
+LITS tot=4624.00 avg=4624.00 max=4624.00 (avg/max)=100.00%
+LAPS tot=267.00 avg=267.00 max=267.00 (avg/max)=100.00%
+NUM_SAVED tot=133.00 avg=133.00 max=133.00 (avg/max)=100.00%
+NUM_FINDS tot=1092.00 avg=1092.00 max=1092.00 (avg/max)=100.00%
+LOAD SEGs tot=0.01 avg=0.01 max=0.01 (avg/max)=100.00%
+SOLVE SEGs tot=37.87 avg=37.87 max=37.87 (avg/max)=100.00%
+TOTAL TIME = 37.89

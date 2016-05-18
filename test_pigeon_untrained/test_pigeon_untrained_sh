@@ -1,0 +1,60 @@
+
+SOLVER=bj-batch-solver
+
+rm ALL_ERR
+
+sh clean_sh
+
+sh skl_clean_sh
+$SOLVER h02.cnf -test
+
+sh skl_clean_sh
+$SOLVER h03.cnf -test
+
+sh skl_clean_sh
+$SOLVER h04.cnf -test
+
+sh skl_clean_sh
+$SOLVER h05.cnf -test
+
+sh skl_clean_sh
+$SOLVER h06.cnf -test
+
+sh skl_clean_sh
+$SOLVER h07.cnf -test
+
+sh skl_clean_sh
+$SOLVER h08.cnf -test
+
+sh skl_clean_sh
+$SOLVER h09.cnf -test
+
+sh skl_clean_sh
+$SOLVER h10.cnf -test
+
+sh skl_clean_sh
+$SOLVER h11.cnf -test
+
+sh skl_clean_sh
+$SOLVER h12.cnf -test
+
+sh skl_clean_sh
+$SOLVER h13.cnf -test
+
+sh skl_clean_sh
+$SOLVER h14.cnf -test
+
+sh skl_clean_sh
+$SOLVER h15.cnf -test
+
+sh skl_clean_sh
+$SOLVER h16.cnf -test
+
+sh skl_clean_sh
+$SOLVER h17.cnf -test
+
+sh skl_clean_sh
+$SOLVER h18.cnf -test
+
+sh skl_clean_sh
+cat *error.log > ALL_ERR

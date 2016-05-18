@@ -1,0 +1,12 @@
+
+CURR_LAPS=19 YES_SAT=0 NO_SAT=1 TMOUT=0 MMOUT=0 ERR=0 UNKNOWN_SAT=0 
+SOLVE SEGs tot=0.90 avg=0.90 max=0.90 (avg/max)=100.00%
+
+
+LITS tot=900.00 avg=900.00 max=900.00 (avg/max)=100.00%
+LAPS tot=19.00 avg=19.00 max=19.00 (avg/max)=100.00%
+NUM_SAVED tot=9.00 avg=9.00 max=9.00 (avg/max)=100.00%
+NUM_FINDS tot=60.00 avg=60.00 max=60.00 (avg/max)=100.00%
+LOAD SEGs tot=0.00 avg=0.00 max=0.00 (avg/max)=100.00%
+SOLVE SEGs tot=0.90 avg=0.90 max=0.90 (avg/max)=100.00%
+TOTAL TIME = 0.91

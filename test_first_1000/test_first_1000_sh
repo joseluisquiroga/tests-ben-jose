@@ -1,0 +1,10 @@
+
+SOLVER=bj-batch-solver
+
+rm ALL_ERR
+sh clean_sh
+
+$SOLVER first_1000_is_sat.lst -test
+
+sh skl_clean_sh
+cat *error.log > ALL_ERR
