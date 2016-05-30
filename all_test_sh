@@ -1,0 +1,45 @@
+
+rm ALL_ERR
+
+cd test_basic_reduc
+sh ./test_basic_reduc_sh
+cat ALL_ERR >> ../ALL_ERR
+cat ALL_ERR
+echo "Finished test_basic_reduc_sh"
+cd ..
+
+cd test_pigeon_untrained
+sh ./test_pigeon_untrained_sh
+cat ALL_ERR >> ../ALL_ERR
+cat ALL_ERR
+echo "Finished test_pigeon_untrained_sh"
+cd ..
+
+cd test_pigeon_under_trained
+sh ./test_pigeon_under_trained_sh
+cat ALL_ERR >> ../ALL_ERR
+cat ALL_ERR
+echo "Finished test_pigeon_under_trained_sh"
+cd ..
+
+cd test_pigeon_trained
+sh ./test_pigeon_trained_sh
+cat ALL_ERR >> ../ALL_ERR
+cat ALL_ERR
+echo "Finished test_pigeon_trained_sh"
+cd ..
+
+cd test_first_1000
+sh ./test_first_1000_sh
+cat ALL_ERR >> ../ALL_ERR
+cat ALL_ERR
+echo "Finished test_first_1000_sh"
+cd ..
+
+cd test_second_1000
+sh ./test_second_1000_sh
+cat ALL_ERR >> ../ALL_ERR
+cat ALL_ERR
+echo "Finished test_second_1000_sh"
+cd ..
+

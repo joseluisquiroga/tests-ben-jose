@@ -1,0 +1,23 @@
+cd test_basic_reduc
+sh clean_sh
+cd ..
+
+cd test_first_1000
+sh clean_sh
+cd ..
+
+cd test_pigeon_trained
+sh clean_sh
+cd ..
+
+cd test_pigeon_under_trained
+sh clean_sh
+cd ..
+
+cd test_pigeon_untrained
+sh clean_sh
+cd ..
+
+cd test_second_1000
+sh clean_sh
+cd ..
